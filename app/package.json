@@ -7,7 +7,6 @@
     "core-js": "^2.5.7",
     "graphql": "^0.8.2",
     "meteor-node-stubs": "^0.4.1",
-    "papaparse": "^4.6.1",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-addons-pure-render-mixin": "^15.6.2",
@@ -17,10 +16,8 @@
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5",
     "simpl-schema": "^1.4.2",
-    "underscore": "^1.9.1",
     "uniforms": "^1.25.0",
-    "uniforms-semantic": "^1.25.0",
-    "victory": "^30.5.1"
+    "uniforms-semantic": "^1.25.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
