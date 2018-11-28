@@ -10,8 +10,8 @@ export default class Building extends React.Component {
 
   constructor(props) {
     super(props)
-    var today = new Date()
-    var priorDate = new Date().setDate(today.getDate()-30)
+    let today = new Date()
+    let priorDate = new Date().setDate(today.getDate()-30)
     this.state = { data: '',  dateStart: new Date(priorDate),   dateEnd: today, meter:''};
     this.DropdownList = this.DropdownList.bind(this);
     this.onBuilding = this.onBuilding.bind(this)
@@ -74,7 +74,7 @@ export default class Building extends React.Component {
         }
         selection.push(x)
       })
-      if(this.state.meter == ''){
+      if(this.state.meter === ''){
       this.setState( {meter : selection[0].key, unit: 'kW'})
       }
       return (

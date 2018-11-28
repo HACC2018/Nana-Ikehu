@@ -1,9 +1,7 @@
 import React from 'react';
 import { Card, Loader } from 'semantic-ui-react';
-import { VictoryChart, VictoryLine, VictoryTheme, VictoryZoomContainer, VictoryAxis, VictoryBrushContainer } from 'victory';
 import PropTypes from 'prop-types';
 import { _ } from 'meteor/underscore';
-import { Graph_LineBrush } from './Graph_LineBrush';
 
 export default class MeterTextSum extends React.Component {
   constructor(props) {
