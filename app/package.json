@@ -27,8 +27,8 @@
     "underscore": "^1.9.1",
     "uniforms": "^1.25.0",
     "uniforms-semantic": "^1.25.0",
-    "victory": "^30.5.1",
-    "victory-legend": "^30.3.1"
+    "victory": "^36.6.8",
+    "victory-legend": "^36.6.8"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
